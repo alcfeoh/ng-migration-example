@@ -11,11 +11,9 @@ export class ExampleComponent {
   name = "World";
 
   constructor(@Inject('sampleService') public service) {
-    debugger;
   }
 
   showSomethingSpecial() {
-    debugger;
     this.service.showSomethingSpecial(this.name);
   }
 }
