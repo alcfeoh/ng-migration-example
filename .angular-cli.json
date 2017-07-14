@@ -22,7 +22,9 @@
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/angular/angular.js"
+        "../node_modules/angular/angular.js",
+        "app/angular-js/controller/example.controller.js",
+        "app/angular-js/controller/example.service.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
