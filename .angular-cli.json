@@ -24,7 +24,8 @@
       "scripts": [
         "../node_modules/angular/angular.js",
         "app/angular-js/controller/example.controller.js",
-        "app/angular-js/controller/example.service.js"
+        "app/angular-js/controller/example.service.js",
+        "app/angular-js/home.component.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
